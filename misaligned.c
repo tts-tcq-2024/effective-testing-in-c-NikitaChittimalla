@@ -37,6 +37,6 @@ int main() {
     int result = printColorMap();
     assert(strcmp(buffer, expectedOutput) == 0);
     assert(result == 25);
-    printf("All is well (maybe!)\n");
+    printf("All is well (maybe)\n");
     return 0;
 }
